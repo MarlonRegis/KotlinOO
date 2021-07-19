@@ -7,6 +7,8 @@ fun main(){
         "Campion Hunter",
         "12345787978",
         3500.00,
-        40)
+        40,
+        "senha123")
     ImprimeRelatorioFuncionario.imprime(campion)
+    TesteAutenticacao().autentica(campion)
 }
